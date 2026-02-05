@@ -1,12 +1,13 @@
 # srsRAN-docker
 ```
 git clone https://github.com/my-rtle/srsRAN-docker.git
+cd srsRAN-docker
 docker-compose build
 docker-compose up -d
 sudo docker exec -it srsran bash
 ```
-이후 opt/srsRAN_4G/build/ 들어가서
 ```
+cd ../opt/srsRAN_4G/build/
 sudo make install
 srsran_install_configs.sh user
 ```
