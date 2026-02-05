@@ -17,8 +17,8 @@ uhd_find_devices
 ```
 ### srsRAN TEST
 ```
-srsue
-srsepc
-srsenb
+sudo srsue
+sudo srsepc
+sudo srsenb
 ```
 
